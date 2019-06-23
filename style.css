@@ -10,14 +10,14 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
+
 
 .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
-  /* background-color: white */
+  
 }
 
 h1,
@@ -51,7 +51,7 @@ h3 {
   font-size: 22px;
 }
 
-/* header */
+
 
 #masthead {
   position: fixed;
@@ -97,7 +97,6 @@ nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
 
 footer {
   padding: 30px 0;
@@ -118,7 +117,6 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
-/* main */
 
 #main-container {
   padding-top: 130px;
@@ -134,8 +132,6 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
-
-/* portfolio page */
 
 .work {
   position: relative;
@@ -177,8 +173,6 @@ h3, h2 {
   margin-right: 25px;
 }
 
-/* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -217,7 +211,8 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
+
   #masthead { 
     margin: 0px 0px 0px 0px;
     width: 100%;
